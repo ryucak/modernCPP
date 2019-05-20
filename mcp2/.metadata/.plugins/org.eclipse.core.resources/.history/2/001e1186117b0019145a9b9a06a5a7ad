@@ -1,0 +1,14 @@
+/*
+ * 2_6.cpp
+ *
+ *  Created on: 2019/05/21
+ *      Author: hhhhh
+ */
+#include <iostream>
+#include <vector>
+#include <array>
+#include <list>
+#include <initializer_list>
+
+template<class Container, >
+

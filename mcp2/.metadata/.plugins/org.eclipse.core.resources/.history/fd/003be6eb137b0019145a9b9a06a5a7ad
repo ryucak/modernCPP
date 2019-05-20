@@ -1,0 +1,31 @@
+/*
+ * 2_6.cpp
+ *
+ *  Created on: 2019/05/21
+ *      Author: hhhhh
+ */
+#include <iostream>
+#include <vector>
+#include <array>
+#include <list>
+#include <initializer_list>
+
+void assert(bool exsp){
+	if(exsp){
+		std::cout << "pass.\n";
+	}else{
+		exit(-1);
+	}
+}
+template<class C, class T>
+bool contains(C& c, T &val){
+	auto it = std::find(std::begin(c),std::end(c),val);
+
+	return (it != std::end(c));
+}
+
+template<class Container, class... Args>
+bool contains_any(Container c, Args... args){
+	return (... || contains(c,args));
+}
+

@@ -1,0 +1,17 @@
+/*
+ * Ipv42.cpp
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+#include "Ipv42.h"
+
+Ipv4_2::Ipv4_2() : Ipv4(){
+
+}
+
+Ipv4_2::~Ipv4_2() {
+	// TODO Auto-generated destructor stub
+}
+

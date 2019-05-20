@@ -1,0 +1,30 @@
+/*
+ * temperature.h
+ *
+ *  Created on: 2019/05/21
+ *      Author: hhhhh
+ */
+
+#ifndef TEMPERATURE_H_
+#define TEMPERATURE_H_
+
+#include <string>
+#include <sstream>
+
+class temperature {
+	uint32_t abs;
+public:
+	temperature(){abs = 0;}
+	temperature(std::string s){
+		std::istringstream iss(s);
+		std::string token;
+		iss >>
+	}
+	std::string toKelvin(){
+		return std::string(abs) + "_K";
+	}
+
+	virtual ~temperature(){}
+};
+
+#endif /* TEMPERATURE_H_ */

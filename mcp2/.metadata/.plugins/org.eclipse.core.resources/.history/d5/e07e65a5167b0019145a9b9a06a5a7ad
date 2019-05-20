@@ -1,0 +1,18 @@
+/*
+ * temperature.cpp
+ *
+ *  Created on: 2019/05/21
+ *      Author: hhhhh
+ */
+
+#include "temperature.h"
+
+temperature::temperature() {
+	// TODO 自動生成されたコンストラクター・スタブ
+
+}
+
+temperature::~temperature() {
+	// TODO Auto-generated destructor stub
+}
+

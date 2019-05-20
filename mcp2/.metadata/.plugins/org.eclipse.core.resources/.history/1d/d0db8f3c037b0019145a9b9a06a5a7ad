@@ -1,0 +1,13 @@
+/*
+ * 2_2.cpp
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+int main(int argc, char **argv) {
+	Ipv4_2 hoge;
+}
+
+
+

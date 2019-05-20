@@ -1,0 +1,23 @@
+/*
+ * temperature.h
+ *
+ *  Created on: 2019/05/21
+ *      Author: hhhhh
+ */
+
+#ifndef TEMPERATURE_H_
+#define TEMPERATURE_H_
+
+class temperature {
+	uint32_t abs;
+public:
+	temperature(){abs = 0;}
+
+	string toKelvin(){
+		return abs;
+	}
+
+	virtual ~temperature(){}
+};
+
+#endif /* TEMPERATURE_H_ */

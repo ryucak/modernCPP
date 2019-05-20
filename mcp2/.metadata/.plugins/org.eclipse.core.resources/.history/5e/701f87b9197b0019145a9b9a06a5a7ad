@@ -1,0 +1,47 @@
+/*
+ * temperature.h
+ *
+ *  Created on: 2019/05/21
+ *      Author: hhhhh
+ */
+
+#ifndef TEMPERATURE_H_
+#define TEMPERATURE_H_
+
+#include <string>
+#include <sstream>
+
+#define SUFFIX_KELVIN "_K"
+#define SUFFIX_CELSIUS "_deg"
+#define SUFFIX_FAHRENHEIT "_f"
+
+class temperature {
+	double abs;
+public:
+	temperature(){abs = 0;}
+	temperature(std::string s) : temperature(){
+		std::istringstream iss(s);
+		std::string suffix;
+		int degree;
+		iss >> degree >> suffix;
+
+		if(suffix == SUFFIX_KELVIN){
+			abs = degree;
+		}
+		if(suffix == SUFFIX_CELSIUS){
+			abs = degree + 273.15;
+		}
+		if(suffix == SUFFIX_FAHRENHEIT){
+			abs = (degree +  459.67) * 5.0 / 9.0;
+		}
+	}
+	std::string toKelvin(){
+		return std::string(abs) + "_K";
+	}
+	std::string toFahrenheit(){
+		return std::string(abs * 9.0 / 5.0 − 459.67) + "_f";
+	}
+	virtual ~temperature(){}
+};
+
+#endif /* TEMPERATURE_H_ */

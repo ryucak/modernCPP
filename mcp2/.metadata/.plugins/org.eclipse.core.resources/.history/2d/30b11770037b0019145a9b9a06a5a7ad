@@ -1,0 +1,23 @@
+/*
+ * 2_2.cpp
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+#include "Ipv42.h"
+
+
+int main(int argc, char **argv) {
+	Ipv4_2 from,to;
+
+	std::cin >> from >> to;
+
+	for(Ipv4_2 i = from; i < to; i++){
+		std::cout << i << "\n";
+	}
+
+
+}
+
+
+

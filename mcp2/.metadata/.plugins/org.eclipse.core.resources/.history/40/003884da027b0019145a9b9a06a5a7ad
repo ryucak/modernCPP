@@ -1,0 +1,25 @@
+/*
+ * Ipv42.h
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+#ifndef IPV42_H_
+#define IPV42_H_
+
+#include "Ipv4.h"
+
+class Ipv4_2 : public Ipv4 {
+public:
+	Ipv4_2() : Ipv4(){}
+	Ipv4_2(int number[4]) : Ipv4(number){}
+
+	Ipv4_2& operator++(){
+
+	}
+
+	virtual ~Ipv4_2();
+};
+
+#endif /* IPV42_H_ */

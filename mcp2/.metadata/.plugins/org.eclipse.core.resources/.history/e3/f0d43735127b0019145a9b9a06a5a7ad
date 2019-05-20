@@ -1,0 +1,26 @@
+/*
+ * 2_6.cpp
+ *
+ *  Created on: 2019/05/21
+ *      Author: hhhhh
+ */
+#include <iostream>
+#include <vector>
+#include <array>
+#include <list>
+#include <initializer_list>
+
+void assert(bool exsp){
+	if(exsp){
+		std::cout << "pass.\n";
+	}else{
+		exit(-1);
+	}
+}
+
+
+template<class Container, typename First, typename... Remain>
+bool contains_any(Container c, First f, Remain... args){
+	std::assert(true);
+}
+

@@ -1,0 +1,32 @@
+/*
+ * Ipv4.h
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+#ifndef IPV4_H_
+#define IPV4_H_
+
+#include <iostream>
+
+class Ipv4 {
+	uint32_t addr;
+public:
+	Ipv4();
+	virtual ~Ipv4();
+	std::istream& operator>>(std::istream& is, Ipv4& a){
+		uint8_t a,b,c,d;
+
+
+		return is;
+	}
+	std::ostream& operator<<(std::istream& os, Ipv4& a){
+
+
+
+		return os;
+	}
+};
+
+#endif /* IPV4_H_ */

@@ -1,0 +1,27 @@
+/*
+ * array2d.h
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+#ifndef ARRAY2D_H_
+#define ARRAY2D_H_
+
+#include <vector>
+
+
+template<class T,class H, class V>
+class array2d {
+	std::vector<T> array;
+
+public:
+	array2d():array(H,V){}
+
+	T & at(int r, int c){
+		return array.at(r*h,c);
+	}
+
+};
+
+#endif /* ARRAY2D_H_ */

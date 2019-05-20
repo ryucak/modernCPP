@@ -1,0 +1,20 @@
+/*
+ * 2_1.cpp
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+#include "Ipv4.h"
+#include <iostream>
+
+int main(int argc, char **argv) {
+	Ipv4 hoge;
+
+	std::cin >> hoge;
+
+	std::cout << hoge;
+
+	return 0p;
+}
+
+

@@ -1,0 +1,32 @@
+/*
+ * Ipv42.h
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+#ifndef IPV42_H_
+#define IPV42_H_
+
+#include "Ipv4.h"
+
+class Ipv4_2 : public Ipv4 {
+public:
+	using Ipv4::Ipv4;
+	Ipv4_2& operator++(){
+		this->addr++;
+		return *this;
+	}
+	Ipv4_2& operator++(int){
+		this->addr++;
+		return *this;
+	}
+
+	friend bool operator<(Ipv4_2 const & a,Ipv4_2 const & b){
+		return (a.addr < b.addr);
+	}
+
+	virtual ~Ipv4_2();
+};
+
+#endif /* IPV42_H_ */

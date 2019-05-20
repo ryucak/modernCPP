@@ -1,0 +1,18 @@
+/*
+ * array2d.h
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+#ifndef ARRAY2D_H_
+#define ARRAY2D_H_
+
+template<class T>
+class array2d {
+	std::vector<T> array;
+public:
+
+};
+
+#endif /* ARRAY2D_H_ */

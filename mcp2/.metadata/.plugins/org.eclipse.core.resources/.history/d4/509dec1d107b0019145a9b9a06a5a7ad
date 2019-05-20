@@ -1,0 +1,18 @@
+/*
+ * 2_5.cpp
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+#include <iostream>
+#include <initializer_list>
+
+
+template<class Container,class First, class... Remain>
+void push_back_multi(Container c, First f, Remain ...args){
+	c.push_back(f);
+
+	for(First i: std::)
+}
+
+

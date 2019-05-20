@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:cpp2-1.exe,org.eclipse.launchbar.core.descriptorType.default\:cpp2-2.exe,org.eclipse.launchbar.core.descriptorType.default\:cpp2-3.exe,org.eclipse.launchbar.core.descriptorType.default\:cpp2-4.exe,org.eclipse.launchbar.core.descriptorType.default\:2-5.exe,org.eclipse.launchbar.core.descriptorType.default\:cpp2-6.exe,org.eclipse.launchbar.core.descriptorType.default\:2-8.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:2-5.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:cpp2-1.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:cpp2-1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:\u30ED\u30FC\u30AB\u30EB
+org.eclipse.launchbar.core.descriptorType.default\:cpp2-2.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:cpp2-3.exe/activeLaunchMode=run

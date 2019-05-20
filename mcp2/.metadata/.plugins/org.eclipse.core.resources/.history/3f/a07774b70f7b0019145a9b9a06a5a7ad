@@ -1,0 +1,11 @@
+/*
+ * 2_5.cpp
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+template<class Contenar,class First, class ...Remain>
+void push_back_multi()
+
+

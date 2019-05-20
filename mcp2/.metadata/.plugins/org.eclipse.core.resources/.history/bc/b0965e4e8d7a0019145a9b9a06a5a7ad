@@ -1,0 +1,17 @@
+/*
+ * Ipv4.h
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+#ifndef IPV4_H_
+#define IPV4_H_
+
+class Ipv4 {
+public:
+	Ipv4();
+	virtual ~Ipv4();
+};
+
+#endif /* IPV4_H_ */

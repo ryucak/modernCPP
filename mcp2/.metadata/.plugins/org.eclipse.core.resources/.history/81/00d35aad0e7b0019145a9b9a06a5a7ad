@@ -1,0 +1,15 @@
+/*
+ * 2_4.cpp
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+#include <initializer_list>
+
+template <typename First, typename... Remain> First min(First f,Remain ...args){
+	First min = f;
+
+	for (First i: std::initializer_list<First>) {
+
+	}
+}

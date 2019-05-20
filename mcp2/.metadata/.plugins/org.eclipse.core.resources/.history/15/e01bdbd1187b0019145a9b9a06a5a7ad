@@ -1,0 +1,41 @@
+/*
+ * temperature.h
+ *
+ *  Created on: 2019/05/21
+ *      Author: hhhhh
+ */
+
+#ifndef TEMPERATURE_H_
+#define TEMPERATURE_H_
+
+#include <string>
+#include <sstream>
+
+#define SUFFIX_KELVIN "_K"
+#define SUFFIX_CELSIUS "_deg"
+#define SUFFIX_FARENHEIT "_f"
+
+class temperature {
+	uint32_t abs;
+public:
+	temperature(){abs = 0;}
+	temperature(std::string s){
+		std::istringstream iss(s);
+		std::string suffix;
+		int degree;
+		iss >> degree >> suffix;
+
+		switch(suffix){
+		case SUFFIX_KELVIN:
+			abs = degree;
+		}
+
+	}
+	std::string toKelvin(){
+		return std::string(abs) + "_K";
+	}
+
+	virtual ~temperature(){}
+};
+
+#endif /* TEMPERATURE_H_ */

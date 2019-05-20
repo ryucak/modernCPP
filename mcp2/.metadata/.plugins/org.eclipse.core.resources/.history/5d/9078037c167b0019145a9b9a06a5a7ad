@@ -1,0 +1,17 @@
+/*
+ * temperature.h
+ *
+ *  Created on: 2019/05/21
+ *      Author: hhhhh
+ */
+
+#ifndef TEMPERATURE_H_
+#define TEMPERATURE_H_
+
+class temperature{
+	uint32 abs;
+};
+
+
+
+#endif /* TEMPERATURE_H_ */

@@ -1,0 +1,34 @@
+/*
+ * array2d.h
+ *
+ *  Created on: 2019/05/20
+ *      Author: hhhhh
+ */
+
+#ifndef ARRAY2D_H_
+#define ARRAY2D_H_
+
+#include <vector>
+
+template<class T,int H, int V>
+class array2d {
+	std::vector<T> array;
+
+public:
+	array2d():array(H,V){}
+
+	T &at(std::size_t r, std::size_t c){
+		return array.at(r*H,c);
+	}
+	T& operator()(std::size_t const r, std::size_t const c){
+		return this->at(r,c);
+	}
+	T* begin() {return array.data();}
+	T* end() {return array.data() + array.size();}
+
+	void fill(T val){}
+
+	virtual ~array2d(){}
+};
+
+#endif /* ARRAY2D_H_ */
