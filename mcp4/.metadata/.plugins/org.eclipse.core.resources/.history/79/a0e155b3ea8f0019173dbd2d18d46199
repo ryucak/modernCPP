@@ -1,0 +1,19 @@
+/*
+ * 33.cpp
+ *
+ *  Created on: 2019/06/16
+ *      Author: hhhhh
+ */
+#include <string>
+#include <iostream>
+
+struct procinfo
+{
+	int id;
+	std::string name;
+	procstatus status;
+	std::string account;
+	size_t memory;
+	platforms platform;
+};
+

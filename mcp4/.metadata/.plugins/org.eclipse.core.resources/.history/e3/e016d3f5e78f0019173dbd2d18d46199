@@ -1,0 +1,33 @@
+/*
+ * 32.cpp
+ *
+ *  Created on: 2019/06/16
+ *      Author: hhhhh
+ */
+#include <iostream>
+#include <vector>
+
+void pascal(int len){
+	std::vector<int> initial(1,1);
+	std::vector<int> prev = initial;
+
+	for (int i = 0; i < len; ++i) {
+		std::cout << i << "," << len << std::endl;
+		std::vector<int> line(i);
+		for (int j = 0; j <= i; ++j) {
+			std::cout << i << ',' << j << std::endl;
+			if(j == 0 || i == (int)prev.size()){
+				line.push_back(prev[j]);
+			}else{
+				line.push_back(prev[j] + prev[j-1]);
+			}
+			std::cout << line[i];
+		}
+		prev = line;
+		std::cout << std::endl;
+	}
+}
+
+int main(int argc, char **argv) {
+	pascal(10);
+}

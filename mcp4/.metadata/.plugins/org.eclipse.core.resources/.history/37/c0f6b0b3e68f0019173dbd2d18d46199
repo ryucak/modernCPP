@@ -1,0 +1,21 @@
+/*
+ * 32.cpp
+ *
+ *  Created on: 2019/06/16
+ *      Author: hhhhh
+ */
+#include <iostream>
+#include <vector>
+
+void pascal(int len){
+	std::vector<int> prev(1);
+	prev[0] = 1;
+
+	for (int i = 0; i < len; ++i) {
+		std::cout << i << "," << len << std::endl;
+	}
+}
+
+int main(int argc, char **argv) {
+	pascal(10);
+}

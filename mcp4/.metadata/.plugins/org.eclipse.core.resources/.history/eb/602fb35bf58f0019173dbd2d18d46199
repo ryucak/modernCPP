@@ -1,0 +1,17 @@
+/*
+ * 37.cpp
+ *
+ *  Created on: 2019/06/16
+ *      Author: hhhhh
+ */
+
+#include <filesystem>
+
+namespase fs = std::filesystem;
+
+void findFile()
+	for(auto e: fs::directory_iterator(dir)){
+		if(isOld(e.path(), 100)){
+			fs::remove(e);
+		}
+	}

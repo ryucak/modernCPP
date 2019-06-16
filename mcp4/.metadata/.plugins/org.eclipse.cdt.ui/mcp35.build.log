@@ -1,0 +1,10 @@
+13:56:02 **** Rebuild of configuration Debug for project mcp35 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 35.o "..\\35.cpp" 
+..\35.cpp:8:22: fatal error: filesystem: No such file or directory
+ #include <filesystem>
+                      ^
+compilation terminated.
+
+13:56:02 Build Finished (took 183ms)
+

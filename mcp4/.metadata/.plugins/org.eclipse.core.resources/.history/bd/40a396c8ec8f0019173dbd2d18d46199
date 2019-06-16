@@ -1,0 +1,22 @@
+/*
+ * 34.cpp
+ *
+ *  Created on: 2019/06/16
+ *      Author: hhhhh
+ */
+#include <string>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+
+#define BLANK_LINE "^\s+$"
+
+void deleteBlank(std::string path){
+	std::ifstream input(path);
+	std::string line;
+	while(line = )
+}
+
+bool isValidline(std::string line){
+
+}

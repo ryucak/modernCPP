@@ -1,0 +1,17 @@
+13:55:46 **** インクリメンタル・ビルド of configuration Debug for project mcp34 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o out_34.o "..\\out_34.cpp" 
+g++ -o mcp34.exe 34.o out_34.o 
+out_34.o: In function `isValidline(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+D:/downloads/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/regex_executor.tcc:220: multiple definition of `isValidline(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+34.o:D:\MyDocument\GitHub\modernCPP\mcp4\mcp34\Debug/../34.cpp:13: first defined here
+out_34.o: In function `std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction()':
+D:/downloads/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/regex_executor.tcc:232: multiple definition of `deleteBlank(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+34.o:D:\MyDocument\GitHub\modernCPP\mcp4\mcp34\Debug/../34.cpp:18: first defined here
+out_34.o: In function `main':
+D:/downloads/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/regex_executor.tcc:286: multiple definition of `main'
+34.o:D:\MyDocument\GitHub\modernCPP\mcp4\mcp34\Debug/../34.cpp:29: first defined here
+collect2.exe: error: ld returned 1 exit status
+
+13:55:52 Build Finished (took 6s.66ms)
+

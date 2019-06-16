@@ -1,0 +1,17 @@
+/*
+ * 35.cpp
+ *
+ *  Created on: 2019/06/16
+ *      Author: hhhhh
+ */
+#include <string>
+#include <filesystem>
+
+
+using fs = std::filesystem;
+
+size_t getDirSize(std::string path){
+	fs::path p("../");
+
+
+}
