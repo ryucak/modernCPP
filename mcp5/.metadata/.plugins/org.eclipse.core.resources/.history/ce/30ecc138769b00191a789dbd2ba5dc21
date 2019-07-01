@@ -1,0 +1,24 @@
+/*
+ * 39.cpp
+ *
+ *  Created on: 2019/07/01
+ *      Author: hhhhh
+ */
+
+#include <iostream>
+#include <chrono>
+
+using namespace std::chrono;
+
+enum Scale{
+	microseconds,
+	milliseconds,
+	seconds,
+};
+
+template <typename Func, typename... Args> int elapse(Func target,Scale scale, Args ... args){
+	auto start = system_clock::now();
+	target(args);
+	auto end = system_clock::now();
+}
+

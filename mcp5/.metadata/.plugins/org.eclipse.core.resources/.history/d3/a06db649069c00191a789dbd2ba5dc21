@@ -1,0 +1,16 @@
+/*
+ * 40.cpp
+ *
+ *  Created on: 2019/07/01
+ *      Author: hhhhh
+ */
+
+#include <chrono>
+
+using namespace std::chrono;
+
+system_clock::time_point getdurationdays(system_clock::time_point a, system_clock::time_point b){
+
+}
+
+

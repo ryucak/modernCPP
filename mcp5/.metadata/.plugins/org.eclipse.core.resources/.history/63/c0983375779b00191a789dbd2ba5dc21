@@ -1,0 +1,23 @@
+/*
+ * 39.cpp
+ *
+ *  Created on: 2019/07/01
+ *      Author: hhhhh
+ */
+
+#include <iostream>
+#include <chrono>
+
+using namespace std::chrono;
+template <typename Duration>
+struct funcTimer_t{
+	template <typename Func,typename... Args> Duration elapse(Func target,Args ... args){
+		auto start = system_clock::now();
+		target(args);
+		return duration_cast<Duration>(system_clock::now() - start);
+	}
+};
+
+int main(int argc, char **argv) {
+
+}

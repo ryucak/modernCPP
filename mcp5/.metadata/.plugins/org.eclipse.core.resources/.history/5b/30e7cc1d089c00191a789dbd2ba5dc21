@@ -1,0 +1,20 @@
+/*
+ * 40.cpp
+ *
+ *  Created on: 2019/07/01
+ *      Author: hhhhh
+ */
+#include <iostream>
+#include <chrono>
+#include <ctime>
+
+using namespace std::chrono;
+
+int durationDays(system_clock::time_point a, system_clock::time_point b){
+	return duration_cast<hours>(a-b).count()/24;
+}
+
+
+int main(int argc, char **argv) {
+	std::cout << durationDays() << std::endl;
+}

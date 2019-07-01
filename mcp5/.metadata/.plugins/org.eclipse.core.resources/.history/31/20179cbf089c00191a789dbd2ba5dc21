@@ -1,0 +1,21 @@
+/*
+ * 40.cpp
+ *
+ *  Created on: 2019/07/01
+ *      Author: hhhhh
+ */
+#include <iostream>
+#include <chrono>
+
+using namespace std::chrono;
+
+int durationDays(system_clock::time_point a, system_clock::time_point b){
+	return duration_cast<hours>(a>b?a-b:b-a).count()/24;
+}
+
+
+int main(int argc, char **argv) {
+	std::cout << durationDays(time_point<high_resolution_clock>(),system_clock::now()) << std::endl;
+
+	return 0;
+}

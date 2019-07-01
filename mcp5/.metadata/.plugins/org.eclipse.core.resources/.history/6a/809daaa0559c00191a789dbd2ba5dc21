@@ -1,0 +1,20 @@
+/*
+ * 42.cpp
+ *
+ *  Created on: 2019/07/02
+ *      Author: hhhhh
+ */
+
+bool isLeap(int y){
+	if(y % 400 == 0){
+		return true;
+	}
+	if(y % 100 == 0){
+		return false;
+	}
+	return (y % 4 == 0);
+}
+
+int dayofyear(int y, int m, int d){
+
+}

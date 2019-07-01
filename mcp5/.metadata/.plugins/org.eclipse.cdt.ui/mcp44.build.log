@@ -1,0 +1,7 @@
+08:36:45 **** インクリメンタル・ビルド of configuration Debug for project mcp44 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 44.o "..\\44.cpp" 
+g++ -o mcp44.exe 44.o 
+
+08:36:46 Build Finished (took 602ms)
+

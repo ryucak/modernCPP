@@ -1,0 +1,16 @@
+/*
+ * 39.cpp
+ *
+ *  Created on: 2019/07/01
+ *      Author: hhhhh
+ */
+
+#include <iostream>
+#include <chrono>
+
+using namespace std::chrono;
+
+template <typename Func, typename... Args> int elapse(Func target,Scale scale, Args ... args){
+	auto start = system_clock::now();
+}
+
