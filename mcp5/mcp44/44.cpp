@@ -57,8 +57,10 @@ void cal(int y, int m){
 			std::cout << std::endl;
 		}
 	}
+	std::cout << std::endl;
 }
 
 int main(int argc, char **argv) {
 	cal(2019,7);
+	cal(2020,2);
 }

@@ -1,0 +1,13 @@
+/*
+ * 48.cpp
+ *
+ *  Created on: 2019/07/16
+ *      Author: hhhhh
+ */
+#include <algorithm>
+
+
+template <typename T>
+std::vector<std::pair<T, size_t>> find_most_frequent(std::vector<T> const & range)
+
+

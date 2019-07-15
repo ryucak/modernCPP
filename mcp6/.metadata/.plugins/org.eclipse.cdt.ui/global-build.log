@@ -1,0 +1,5 @@
+06:26:00 **** インクリメンタル・ビルド of configuration Debug for project mcp45 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 45.o "..\\45.cpp" 
+g++ -o mcp45.exe 45.o 
+Info: Nothing to build for mcp45

@@ -1,0 +1,8 @@
+template <class T>
+class ring_buffer
+{
+	std::vector<T> data;
+
+public:
+	explicit circular_buffer(size_t const size) : data(size) {};
+};

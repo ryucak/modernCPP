@@ -1,0 +1,35 @@
+/*
+ * 45.cpp
+ *
+ *  Created on: 2019/07/16
+ *      Author: hhhhh
+ */
+#include <vector>
+#include <algorithm>
+#include <functional>
+
+template<class T, class Compare = std::less<typename std::vector<T>::value_type>>
+class priority_queue {
+	std::vector<T> data;
+	Compare comparer;
+
+public:
+	bool empty() {
+		return data.empty();
+	}
+	size_t size() {
+		return data.size();
+	}
+	void push(value_type const & value) {
+		data.push_back(value);
+		std::push_heap(std::begin(data), std::end(data), comparer);
+	}
+	void pop() {
+		std::pop_heap(std::begin(data), std::end(data), comparer);
+		data.pop_back();
+	}
+	T& top() const {
+		return data.front();
+	}
+};
+

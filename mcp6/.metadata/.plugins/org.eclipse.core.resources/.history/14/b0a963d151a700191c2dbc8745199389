@@ -1,0 +1,14 @@
+/*
+ * 53.cpp
+ *
+ *  Created on: 2019/07/16
+ *      Author: hhhhh
+ */
+#include <vector>
+
+double truncated_average(std::vector<int> values){
+	double result = 0.0;
+}
+
+
+

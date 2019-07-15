@@ -1,0 +1,15 @@
+/*
+ * 50.cpp
+ *
+ *  Created on: 2019/07/16
+ *      Author: hhhhh
+ */
+#include <vector>
+#include <string>
+
+
+std::vector<std::string> filter_numbers(
+		std::vector<std::string> const & numbers,
+		std::string const & countryCode) {
+	return filter_numbers(std::cbegin(numbers), std::cend(numbers), countryCode);
+}

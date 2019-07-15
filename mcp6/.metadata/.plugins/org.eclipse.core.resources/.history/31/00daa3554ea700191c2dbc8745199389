@@ -1,0 +1,14 @@
+/*
+ * 49.cpp
+ *
+ *  Created on: 2019/07/16
+ *      Author: hhhhh
+ */
+#include <string>
+
+
+void text_hist(std::string_view text){
+
+}
+
+
