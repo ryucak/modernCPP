@@ -1,0 +1,18 @@
+/*
+ * 56.cpp
+ *
+ *  Created on: 2019/08/05
+ *      Author: hhhhh
+ */
+
+struct book {
+	int id;
+	std::string title;
+	std::string author;
+};
+std::vector<book> books {
+	{ 101, "The C++ Programming Language","Bjarne Stroustrup" },
+	{ 203, "Effective Modern C++", "Scott Meyers" },
+	{ 404, "The Modern C++ Programming Cookbook", "Marius Bancila" }
+};
+auto titles = select(books, [](book const & b) {return b.title;});

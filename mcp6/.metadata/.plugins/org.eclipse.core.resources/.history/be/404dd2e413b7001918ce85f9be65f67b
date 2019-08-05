@@ -1,0 +1,49 @@
+/*
+ * 60.cpp
+ *
+ *  Created on: 2019/08/05
+ *      Author: hhhhh
+ */
+#include <set>
+#include <vector>
+
+class cell{
+	bool alive;
+	std::set<cell>	neighbors;
+public:
+	int count();
+	void next_gen(bool alive) {this->alive = alive;}
+};
+
+int cell::count(void){
+	int cnt;
+	for (cell c :neighbors) {
+		if(c.alive){
+			cnt++;
+		}
+	}
+	return cnt;
+}
+
+#define WIDTH 50
+#define HEIGHT 50
+
+bool judge(int cnt, bool alive){
+	switch(cnt){
+	case 2:
+		if(alive) return true;
+		break;
+	case 3:
+		return true;
+	}
+	return false;
+}
+
+int main(int argc, char **argv) {
+	auto map = std::vector<cell>(WIDTH,HEIGHT);
+	auto next = std::vector<cell>(WIDTH,HEIGHT);
+
+	for (int i = 0; i < max; ++i) {
+
+	}
+}
