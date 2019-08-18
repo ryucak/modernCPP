@@ -1,0 +1,51 @@
+/*
+ * 65.cpp
+ *
+ *  Created on: 2019/08/19
+ *      Author: hhhhh
+ */
+
+#include <mutex>
+#include <string>
+#include <iostream>
+#include <thread>
+#include <vector>
+
+class Logger {
+	std::mutex *m;
+
+public:
+	Logger() { m = new std::mutex(); }
+
+	void log(std::string msg) {
+		m->lock();
+		std::cout << msg << std::endl;
+		m->unlock();
+	}
+};
+
+
+
+int main(int argc, char **argv) {
+	Logger logger;
+	std::vector<std::thread> threads;
+	bool ready = false;
+
+	for (int id = 0; id < 100; ++id) {
+		threads.emplace_back([id,&logger,&ready](){
+			while(!ready){
+				std::this_thread::sleep_for(std::chrono::milliseconds(1));
+			}
+
+			for (int i = 0; i < 100; ++i) {
+				logger.log(std::to_string(id) + " thread " + std::to_string(id));
+			}
+		});
+	}
+	ready = true;
+
+	for(auto & th : threads){
+		th.join();
+	}
+}
+

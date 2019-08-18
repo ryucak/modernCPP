@@ -1,6 +1,0 @@
-template <class T>
-class ring_buffer
-{
-	std::vector<T> data;
-
-};

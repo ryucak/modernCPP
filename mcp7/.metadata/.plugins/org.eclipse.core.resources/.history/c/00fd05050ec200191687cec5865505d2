@@ -1,0 +1,16 @@
+/*
+ * 65.cpp
+ *
+ *  Created on: 2019/08/19
+ *      Author: hhhhh
+ */
+
+#include <mutex>
+#include <string>
+
+class Logger {
+	std::mutex m;
+
+public:
+	void log(std::string msg);
+};

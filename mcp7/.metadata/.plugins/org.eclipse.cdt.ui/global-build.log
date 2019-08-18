@@ -1,0 +1,10 @@
+Info: Nothing to build for mcp65
+Info: Nothing to build for mcp65
+08:37:04 **** インクリメンタル・ビルド of configuration Debug for project mcp65 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 65.o "..\\65.cpp" 
+g++ -o mcp65.exe 65.o 
+08:39:36 **** インクリメンタル・ビルド of configuration Debug for project mcp65 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 65.o "..\\65.cpp" 
+g++ -o mcp65.exe 65.o 
