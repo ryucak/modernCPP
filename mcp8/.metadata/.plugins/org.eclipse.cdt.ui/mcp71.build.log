@@ -1,7 +1,7 @@
-08:36:11 **** インクリメンタル・ビルド of configuration Debug for project mcp71 ****
+08:49:20 **** インクリメンタル・ビルド of configuration Debug for project mcp71 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 71.o "..\\71.cpp" 
 g++ -o mcp71.exe 71.o 
 
-08:36:12 Build Finished (took 902ms)
+08:49:21 Build Finished (took 798ms)
 

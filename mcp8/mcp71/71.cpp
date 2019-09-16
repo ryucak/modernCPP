@@ -57,23 +57,22 @@ class observed_vector {
 
 public:
 	observed_vector(){}
-	observed_vector(observed_vector& other){
+	observed_vector(const observed_vector &other){
 		*this = other;
+	}
+	observed_vector& operator=(const observed_vector& other){
+		if(this != &other){
+			this->obs = other.obs;
+			this->vec = other.vec;
+		}
 		obs.notify_event(event::copy_from_else);
+		return *this;
 	}
 	observed_vector(std::vector<T>& v){
 		this->vec = v;
 	}
 	void add_listner(listner l){
 		obs.add_listner(l);
-	}
-	observed_vector& operator=(observed_vector const &other){
-		obs.notify_event(event::copy_from_else);
-		if(this != &other){
-			this->obs = other.obs;
-			this->vec = other.vec;
-		}
-		return *this;
 	}
 	void push_back(T v){
 		obs.notify_event(event::add_item);
@@ -118,8 +117,7 @@ int main(int argc, char **argv) {
 
 	ov.pop_back();
 
-	observed_vector<int> ov2;
-	ov2 = ov;
+	observed_vector<int> ov2 = ov;
 
 	ov.clear();
 
