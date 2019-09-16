@@ -1,0 +1,15 @@
+/*
+ * 71.cpp
+ *
+ *  Created on: 2019/09/17
+ *      Author: hhhhh
+ */
+
+enum class event{
+	add_item,
+	remove_item,
+	clear_all_item,
+	copy_from_else,
+};
+
+

@@ -1,0 +1,46 @@
+/*
+ * 71.cpp
+ *
+ *  Created on: 2019/09/17
+ *      Author: hhhhh
+ */
+
+#include <list>
+#include <vector>
+#include <string>
+#include <iostream>
+
+enum class event{
+	add_item,
+	remove_item,
+	clear_all_item,
+	copy_from_else,
+};
+
+class listner {
+	std::vector<std::string> event_str = {
+			"add",
+			"remove",
+			"clear",
+			"copy"
+	};
+public:
+	listner(std::string[] arr){
+
+	}
+	void event_handler(event evt)
+	{
+		std::cout << event_str[evt] << std::endl;
+	}
+};
+
+class observer {
+	std::list<listner> listners;
+public:
+	void notify_event(event)
+	{
+
+	}
+};
+
+
