@@ -1,0 +1,11 @@
+07:05:05 **** インクリメンタル・ビルド of configuration Debug for project mcp76 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\MyDocument\\GitHub\\modernCPP\\mcp9\\json\\json-develop\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o 76.o "..\\76.cpp" 
+g++ -o mcp76.exe 76.o 
+Info: Nothing to build for mcp76
+Info: Nothing to build for mcp76
+Info: Nothing to build for mcp76
+07:06:40 **** インクリメンタル・ビルド of configuration Debug for project mcp76 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\MyDocument\\GitHub\\modernCPP\\mcp9\\json\\json-develop\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o 76.o "..\\76.cpp" 
+g++ -o mcp76.exe 76.o 

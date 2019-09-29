@@ -1,17 +1,32 @@
-08:46:18 **** インクリメンタル・ビルド of configuration Debug for project mcp71 ****
+09:06:49 **** インクリメンタル・ビルド of configuration Debug for project mcp71 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 71.o "..\\71.cpp" 
-g++ -o mcp71.exe 71.o 
-Info: Nothing to build for mcp71
-08:47:04 **** インクリメンタル・ビルド of configuration Debug for project mcp71 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 71.o "..\\71.cpp" 
-g++ -o mcp71.exe 71.o 
-08:47:19 **** インクリメンタル・ビルド of configuration Debug for project mcp71 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 71.o "..\\71.cpp" 
-g++ -o mcp71.exe 71.o 
-08:49:20 **** インクリメンタル・ビルド of configuration Debug for project mcp71 ****
+..\71.cpp: In function 'int main(int, char**)':
+..\71.cpp:106:15: error: 'bool std::vector<_Tp, _Alloc>::empty() const [with _Tp = int; _Alloc = std::allocator<int>]' is inaccessible within this context
+  if(!ov.empty()){
+               ^
+In file included from D:/downloads/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/vector:64:0,
+                 from ..\71.cpp:9:
+D:/downloads/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:744:7: note: declared here
+       empty() const _GLIBCXX_NOEXCEPT
+       ^~~~~
+..\71.cpp:107:34: error: 'std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::size_type = long long unsigned int]' is inaccessible within this context
+   std::cout << "has " << ov.size() <<  "item" << std::endl;
+                                  ^
+In file included from D:/downloads/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/vector:64:0,
+                 from ..\71.cpp:9:
+D:/downloads/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:655:7: note: declared here
+       size() const _GLIBCXX_NOEXCEPT
+       ^~~~
+..\71.cpp:118:34: error: 'std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::size_type = long long unsigned int]' is inaccessible within this context
+  std::cout << "has " << ov2.size() <<  "item" << std::endl;
+                                  ^
+In file included from D:/downloads/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/vector:64:0,
+                 from ..\71.cpp:9:
+D:/downloads/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:655:7: note: declared here
+       size() const _GLIBCXX_NOEXCEPT
+       ^~~~
+09:07:47 **** インクリメンタル・ビルド of configuration Debug for project mcp71 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 71.o "..\\71.cpp" 
 g++ -o mcp71.exe 71.o 

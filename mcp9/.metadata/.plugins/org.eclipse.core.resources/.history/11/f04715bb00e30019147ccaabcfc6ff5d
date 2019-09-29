@@ -1,0 +1,15 @@
+/*
+ * 76.cpp
+ *
+ *  Created on: 2019/09/30
+ *      Author: hhhhh
+ */
+
+#include <json.hpp>
+
+using json = nlohmann::json;
+
+int main(int argc, char **argv) {
+
+}
+
