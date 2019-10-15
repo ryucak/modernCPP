@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;mcp82/png++-0.2.9&apos; を &apos;png++&apos; に変更します" description="リソース &apos;png++-0.2.9&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="png++-0.2.9" name="png++" stamp="1571091863507" updateReferences="true"/>
+</session>

@@ -1,0 +1,24 @@
+/*
+ * 82.cpp
+ *
+ *  Created on: 2019/10/15
+ *      Author: hhhhh
+ */
+#include <String>
+#include <cstdlib>
+#include <png++/png.hpp>
+
+int main(int argc, char **argv) {
+
+	if(argc < 4) return;
+
+	int width = std::atoi(argv[1]);
+	int hehght = std::atoi(argv[2]);
+	std::string filename = argv[3];
+
+
+
+}
+
+
+

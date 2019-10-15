@@ -1,0 +1,53 @@
+07:57:14 **** インクリメンタル・ビルド of configuration Debug for project libpng ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "libpng-1.6.37\\contrib\\gregbook\\readppm.o" "..\\libpng-1.6.37\\contrib\\gregbook\\readppm.c" 
+..\libpng-1.6.37\contrib\gregbook\readppm.c: In function 'readpng_init':
+..\libpng-1.6.37\contrib\gregbook\readppm.c:89:11: warning: pointer targets in passing argument 1 of 'fgets' differ in signedness [-Wpointer-sign]
+     fgets(ppmline, 256, infile);
+           ^~~~~~~
+In file included from ..\libpng-1.6.37\contrib\gregbook\readppm.c:61:0:
+D:/downloads/pleiades/eclipse/mingw/x86_64-w64-mingw32/include/stdio.h:454:17: note: expected 'char * restrict' but argument is of type 'uch * {aka unsigned char *}'
+   char *__cdecl fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
+                 ^~~~~
+..\libpng-1.6.37\contrib\gregbook\readppm.c:107:15: warning: pointer targets in passing argument 1 of 'fgets' differ in signedness [-Wpointer-sign]
+         fgets(ppmline, 256, infile);
+               ^~~~~~~
+In file included from ..\libpng-1.6.37\contrib\gregbook\readppm.c:61:0:
+D:/downloads/pleiades/eclipse/mingw/x86_64-w64-mingw32/include/stdio.h:454:17: note: expected 'char * restrict' but argument is of type 'uch * {aka unsigned char *}'
+   char *__cdecl fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
+                 ^~~~~
+..\libpng-1.6.37\contrib\gregbook\readppm.c:109:12: warning: pointer targets in passing argument 1 of 'sscanf' differ in signedness [-Wpointer-sign]
+     sscanf(ppmline, "%lu %lu", &width, &height);
+            ^~~~~~~
+In file included from ..\libpng-1.6.37\contrib\gregbook\readppm.c:61:0:
+D:/downloads/pleiades/eclipse/mingw/x86_64-w64-mingw32/include/stdio.h:396:15: note: expected 'const char * restrict' but argument is of type 'uch * {aka unsigned char *}'
+   int __cdecl sscanf(const char * __restrict__ _Src,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^~~~~~
+..\libpng-1.6.37\contrib\gregbook\readppm.c:112:15: warning: pointer targets in passing argument 1 of 'fgets' differ in signedness [-Wpointer-sign]
+         fgets(ppmline, 256, infile);
+               ^~~~~~~
+In file included from ..\libpng-1.6.37\contrib\gregbook\readppm.c:61:0:
+D:/downloads/pleiades/eclipse/mingw/x86_64-w64-mingw32/include/stdio.h:454:17: note: expected 'char * restrict' but argument is of type 'uch * {aka unsigned char *}'
+   char *__cdecl fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
+                 ^~~~~
+..\libpng-1.6.37\contrib\gregbook\readppm.c:114:12: warning: pointer targets in passing argument 1 of 'sscanf' differ in signedness [-Wpointer-sign]
+     sscanf(ppmline, "%d", &maxval);
+            ^~~~~~~
+In file included from ..\libpng-1.6.37\contrib\gregbook\readppm.c:61:0:
+D:/downloads/pleiades/eclipse/mingw/x86_64-w64-mingw32/include/stdio.h:396:15: note: expected 'const char * restrict' but argument is of type 'uch * {aka unsigned char *}'
+   int __cdecl sscanf(const char * __restrict__ _Src,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^~~~~~
+..\libpng-1.6.37\contrib\gregbook\readppm.c: In function 'readpng_get_image':
+..\libpng-1.6.37\contrib\gregbook\readppm.c:161:25: error: 'PROGNAME' undeclared (first use in this function)
+         fprintf(stderr, PROGNAME ":  image_data buffer would be too large\n",
+                         ^~~~~~~~
+..\libpng-1.6.37\contrib\gregbook\readppm.c:161:25: note: each undeclared identifier is reported only once for each function it appears in
+..\libpng-1.6.37\contrib\gregbook\readppm.c:161:34: error: expected ')' before string constant
+         fprintf(stderr, PROGNAME ":  image_data buffer would be too large\n",
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\libpng-1.6.37\contrib\gregbook\readppm.c:163:5: error: expected ';' before '}' token
+     }
+     ^
+
+07:57:14 Build Finished (took 157ms)
+

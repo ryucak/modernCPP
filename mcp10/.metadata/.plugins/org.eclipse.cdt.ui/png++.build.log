@@ -1,0 +1,10 @@
+08:58:59 **** Rebuild of configuration Debug for project png++ ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "png++-0.2.9\\test\\read_write_gray_packed.o" "..\\png++-0.2.9\\test\\read_write_gray_packed.cpp" 
+..\png++-0.2.9\test\read_write_gray_packed.cpp:34:19: fatal error: png.hpp: No such file or directory
+ #include <png.hpp>
+                   ^
+compilation terminated.
+
+08:58:59 Build Finished (took 165ms)
+

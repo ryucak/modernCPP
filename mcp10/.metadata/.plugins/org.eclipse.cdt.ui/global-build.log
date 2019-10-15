@@ -1,0 +1,164 @@
+09:12:12 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:12:33 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+Info: Nothing to build for mcp82
+09:13:00 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+Info: Nothing to build for mcp82
+09:14:11 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:14:20 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:14:29 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:14:44 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:14:51 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:15:20 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:15:27 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:16:43 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:16:51 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:16:58 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+Info: Nothing to build for mcp82
+09:18:34 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:18:48 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+09:19:11 **** インクリメンタル・ビルド of configuration Debug for project mcp82 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\png++" "-ID:\\pleiades\\eclipse\\mingw\\local\\include" "-ID:\\pleiades\\eclipse\\mingw\\local\\include\\libpng16" -O0 -g3 -Wall -c -fmessage-length=0 -o 82.o "..\\82.cpp" 
+In file included from D:\pleiades\eclipse\mingw\local\include/png++/png.hpp:38:0,
+                 from ..\82.cpp:10:
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp: In static member function 'static std::__cxx11::string png::std_error::thread_safe_strerror(int)':
+D:\pleiades\eclipse\mingw\local\include/png++/error.hpp:97:18: warning: unused variable 'buf' [-Wunused-variable]
+             char buf[ERRBUF_SIZE] = { 0 };
+                  ^~~
+g++ "-LD:\\pleiades\\eclipse\\mingw\\local\\lib" -o mcp82.exe 82.o -lz -lpng 
+Info: Nothing to build for mcp82

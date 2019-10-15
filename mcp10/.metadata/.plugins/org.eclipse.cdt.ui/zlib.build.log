@@ -1,0 +1,134 @@
+07:46:37 **** Rebuild of configuration Debug for project zlib ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "zlib-1.2.11\\adler32.o" "..\\zlib-1.2.11\\adler32.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "zlib-1.2.11\\examples\\gzappend.o" "..\\zlib-1.2.11\\examples\\gzappend.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "zlib-1.2.11\\zutil.o" "..\\zlib-1.2.11\\zutil.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "zlib-1.2.11\\examples\\gzlog.o" "..\\zlib-1.2.11\\examples\\gzlog.c" 
+..\zlib-1.2.11\examples\gzlog.c: In function 'log_touch':
+..\zlib-1.2.11\examples\gzlog.c:377:5: warning: implicit declaration of function 'utimes' [-Wimplicit-function-declaration]
+     utimes(log->path, NULL);
+     ^~~~~~
+..\zlib-1.2.11\examples\gzlog.c: In function 'log_head':
+..\zlib-1.2.11\examples\gzlog.c:280:46: warning: left shift count >= width of type [-Wshift-count-overflow]
+ #define PULL8(p) (PULL4(p)+((off_t)PULL4(p+4)<<32))
+                                              ^
+..\zlib-1.2.11\examples\gzlog.c:420:18: note: in expansion of macro 'PULL8'
+     log->first = PULL8(buf + HEAD);
+                  ^~~~~
+..\zlib-1.2.11\examples\gzlog.c:280:46: warning: left shift count >= width of type [-Wshift-count-overflow]
+ #define PULL8(p) (PULL4(p)+((off_t)PULL4(p+4)<<32))
+                                              ^
+..\zlib-1.2.11\examples\gzlog.c:421:17: note: in expansion of macro 'PULL8'
+     log->last = PULL8(buf + HEAD + 8);
+                 ^~~~~
+..\zlib-1.2.11\examples\gzlog.c: In function 'log_mark':
+..\zlib-1.2.11\examples\gzlog.c:285:43: warning: right shift count >= width of type [-Wshift-count-overflow]
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                           ^
+..\zlib-1.2.11\examples\gzlog.c:283:30: note: in definition of macro 'PUT2'
+ #define PUT2(p,a) do {(p)[0]=a;(p)[1]=(a)>>8;} while(0)
+                              ^
+..\zlib-1.2.11\examples\gzlog.c:285:33: note: in expansion of macro 'PUT4'
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                 ^~~~
+..\zlib-1.2.11\examples\gzlog.c:442:5: note: in expansion of macro 'PUT8'
+     PUT8(ext, log->first);
+     ^~~~
+..\zlib-1.2.11\examples\gzlog.c:285:43: warning: right shift count >= width of type [-Wshift-count-overflow]
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                           ^
+..\zlib-1.2.11\examples\gzlog.c:283:40: note: in definition of macro 'PUT2'
+ #define PUT2(p,a) do {(p)[0]=a;(p)[1]=(a)>>8;} while(0)
+                                        ^
+..\zlib-1.2.11\examples\gzlog.c:285:33: note: in expansion of macro 'PUT4'
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                 ^~~~
+..\zlib-1.2.11\examples\gzlog.c:442:5: note: in expansion of macro 'PUT8'
+     PUT8(ext, log->first);
+     ^~~~
+..\zlib-1.2.11\examples\gzlog.c:285:43: warning: right shift count >= width of type [-Wshift-count-overflow]
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                           ^
+..\zlib-1.2.11\examples\gzlog.c:283:30: note: in definition of macro 'PUT2'
+ #define PUT2(p,a) do {(p)[0]=a;(p)[1]=(a)>>8;} while(0)
+                              ^
+..\zlib-1.2.11\examples\gzlog.c:285:33: note: in expansion of macro 'PUT4'
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                 ^~~~
+..\zlib-1.2.11\examples\gzlog.c:442:5: note: in expansion of macro 'PUT8'
+     PUT8(ext, log->first);
+     ^~~~
+..\zlib-1.2.11\examples\gzlog.c:285:43: warning: right shift count >= width of type [-Wshift-count-overflow]
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                           ^
+..\zlib-1.2.11\examples\gzlog.c:283:40: note: in definition of macro 'PUT2'
+ #define PUT2(p,a) do {(p)[0]=a;(p)[1]=(a)>>8;} while(0)
+                                        ^
+..\zlib-1.2.11\examples\gzlog.c:285:33: note: in expansion of macro 'PUT4'
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                 ^~~~
+..\zlib-1.2.11\examples\gzlog.c:442:5: note: in expansion of macro 'PUT8'
+     PUT8(ext, log->first);
+     ^~~~
+..\zlib-1.2.11\examples\gzlog.c:285:43: warning: right shift count >= width of type [-Wshift-count-overflow]
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                           ^
+..\zlib-1.2.11\examples\gzlog.c:283:30: note: in definition of macro 'PUT2'
+ #define PUT2(p,a) do {(p)[0]=a;(p)[1]=(a)>>8;} while(0)
+                              ^
+..\zlib-1.2.11\examples\gzlog.c:285:33: note: in expansion of macro 'PUT4'
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                 ^~~~
+..\zlib-1.2.11\examples\gzlog.c:443:5: note: in expansion of macro 'PUT8'
+     PUT8(ext + 8, log->last);
+     ^~~~
+..\zlib-1.2.11\examples\gzlog.c:285:43: warning: right shift count >= width of type [-Wshift-count-overflow]
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                           ^
+..\zlib-1.2.11\examples\gzlog.c:283:40: note: in definition of macro 'PUT2'
+ #define PUT2(p,a) do {(p)[0]=a;(p)[1]=(a)>>8;} while(0)
+                                        ^
+..\zlib-1.2.11\examples\gzlog.c:285:33: note: in expansion of macro 'PUT4'
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                 ^~~~
+..\zlib-1.2.11\examples\gzlog.c:443:5: note: in expansion of macro 'PUT8'
+     PUT8(ext + 8, log->last);
+     ^~~~
+..\zlib-1.2.11\examples\gzlog.c:285:43: warning: right shift count >= width of type [-Wshift-count-overflow]
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                           ^
+..\zlib-1.2.11\examples\gzlog.c:283:30: note: in definition of macro 'PUT2'
+ #define PUT2(p,a) do {(p)[0]=a;(p)[1]=(a)>>8;} while(0)
+                              ^
+..\zlib-1.2.11\examples\gzlog.c:285:33: note: in expansion of macro 'PUT4'
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                 ^~~~
+..\zlib-1.2.11\examples\gzlog.c:443:5: note: in expansion of macro 'PUT8'
+     PUT8(ext + 8, log->last);
+     ^~~~
+..\zlib-1.2.11\examples\gzlog.c:285:43: warning: right shift count >= width of type [-Wshift-count-overflow]
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                           ^
+..\zlib-1.2.11\examples\gzlog.c:283:40: note: in definition of macro 'PUT2'
+ #define PUT2(p,a) do {(p)[0]=a;(p)[1]=(a)>>8;} while(0)
+                                        ^
+..\zlib-1.2.11\examples\gzlog.c:285:33: note: in expansion of macro 'PUT4'
+ #define PUT8(p,a) do {PUT4(p,a);PUT4(p+4,a>>32);} while(0)
+                                 ^~~~
+..\zlib-1.2.11\examples\gzlog.c:443:5: note: in expansion of macro 'PUT8'
+     PUT8(ext + 8, log->last);
+     ^~~~
+..\zlib-1.2.11\examples\gzlog.c:450:5: warning: implicit declaration of function 'fsync' [-Wimplicit-function-declaration]
+     fsync(log->fd);
+     ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "zlib-1.2.11\\test\\example.o" "..\\zlib-1.2.11\\test\\example.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "zlib-1.2.11\\contrib\\minizip\\mztools.o" "..\\zlib-1.2.11\\contrib\\minizip\\mztools.c" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "zlib-1.2.11\\contrib\\iostream2\\zstream_test.o" "..\\zlib-1.2.11\\contrib\\iostream2\\zstream_test.cpp" 
+In file included from ..\zlib-1.2.11\contrib\iostream2\zstream_test.cpp:1:0:
+..\zlib-1.2.11\contrib\iostream2\zstream.h:27:23: fatal error: strstream.h: No such file or directory
+ #include <strstream.h>
+                       ^
+compilation terminated.
+
+07:46:39 Build Finished (took 1s.616ms)
+
