@@ -1,0 +1,23 @@
+/*
+ * 88.cpp
+ *
+ *  Created on: 2019/11/03
+ *      Author: hhhhh
+ */
+
+#include <string>
+
+std::string caesar(std::string instr, int shift)
+{
+	std::string outstr = "";
+
+	for(auto c : instr){
+		if(isalnum(c) && isupper(c)){
+			outstr.append(c + shift);
+		}else{
+			outstr.append(c);
+		}
+	}
+}
+
+

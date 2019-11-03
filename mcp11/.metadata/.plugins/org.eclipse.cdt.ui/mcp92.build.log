@@ -1,0 +1,7 @@
+14:50:07 **** インクリメンタル・ビルド of configuration Debug for project mcp92 ****
+Info: Internal Builder is used for build
+g++ -D_MSC_VER=1 "-ID:\\MyDocument\\GitHub\\modernCPP\\mcp11\\mcp92\\hash-library" -O0 -g3 -Wall -c -fmessage-length=0 -o 92.o "..\\92.cpp" 
+g++ -o mcp92.exe 92.o "hash-library\\crc32.o" "hash-library\\keccak.o" "hash-library\\md5.o" "hash-library\\sha1.o" "hash-library\\sha256.o" "hash-library\\sha3.o" 
+
+14:50:08 Build Finished (took 598ms)
+

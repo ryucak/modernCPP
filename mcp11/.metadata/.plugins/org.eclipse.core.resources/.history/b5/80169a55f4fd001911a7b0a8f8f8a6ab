@@ -1,0 +1,52 @@
+/*
+ * 89.cpp
+ *
+ *  Created on: 2019/11/03
+ *      Author: hhhhh
+ */
+#include <iostream>
+#include <string>
+#include <functional>
+
+class vignere{
+	std::string key;
+	static char element(char k){return (k - 'A') % 26;}
+	std::string crypt(std::string in, std::function<char(char,char)> f)
+	{
+		std::string out;
+
+		for (size_t i = 0; i < in.length(); ++i) {
+			char c = in[i];
+			if(isalpha(c) && isupper(c)){
+				c = f(c,key[i%key.length()]);
+			}
+			out.push_back(c);
+		}
+		return out;
+	}
+public:
+	vignere(std::string key){
+		this->key = key;
+	};
+
+	std::string encrypt(std::string clr){
+		return vignere::crypt(clr,[](char c,char k){return c + vignere::element(k);});
+	}
+	std::string decrypt(std::string cpr){
+		return vignere::crypt(cpr,[](char c,char k){return c - (k - 'A');});
+	}
+};
+
+int main(int argc, char **argv) {
+	std::string hoge;
+	vignere vig("ARM");
+
+	std::cin >> hoge;
+	std::string hoge_crypt = vig.encrypt(hoge);
+	std::cout << hoge_crypt << std::endl;
+	std::cout << vig.decrypt(hoge_crypt) << std::endl;
+
+	return 0;
+}
+
+
