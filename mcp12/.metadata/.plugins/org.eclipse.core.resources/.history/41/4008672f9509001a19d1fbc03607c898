@@ -1,0 +1,35 @@
+/*
+ * 99.cpp
+ *
+ *  Created on: 2019/11/18
+ *      Author: hhhhh
+ */
+
+
+#include <iostream>
+#include <cpprest/http_client.h>
+
+using namespace web;
+using namespace web::http;
+using namespace web::http::client;
+
+pplx::task<void> Get()
+{
+  return pplx::create_task([]
+  {
+    http_client client(L"https://api.cognitive.microsofttranslator.com/translate?to=fr&api-version%3D3.0");
+    return client.request(methods::GET);
+  }).then([](http_response response)
+  {
+    if (response.status_code() == status_codes::OK)
+    {
+      // レスポンスをJSONとして解析する
+      return response.extract_json();
+    }
+  }).then([](json::value json)
+  {
+    // タイトルだけ取得する
+    std::wcout << json[L"title"].as_string() << std::endl;
+  });
+}
+
